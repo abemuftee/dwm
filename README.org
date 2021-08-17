@@ -1,0 +1,16 @@
+#+TITLE: Ibrahim's build of dwm
+
+Heavily inspired by [[https://lukesmith.xyz][Luke Smith]]
+
+* Installation
+
+#+begin_src shell
+  git clone https://github.com/ibrahimmuftee/dwm
+  cd dwm
+  sudo make install
+#+end_src
+
+
+* Please install =libxft-bgra=!
+
+This build of dwm does not block color emoji in the status/info bar, so you must install [[https://aur.archlinux.org/packages/libxft-bgra/][libxft-bgra]] from the AUR, which fixes a libxft color emoji rendering problem, otherwise dwm will crash upon trying to render one. Hopefully this fix will be in all libxft soon enough.
