@@ -1,6 +1,6 @@
 #+TITLE: Ibrahim's build of dwm
 
-Heavily inspired by [[https://lukesmith.xyz][Luke Smith]]
+Basically stolen from [[https://lukesmith.xyz][Luke Smith]]
 
 * Installation
 
